@@ -1,0 +1,15 @@
+{
+  "name": "lax360-zepto-style-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zepto-Reference Quick-Commerce Frontend Demo Prototype for LAX360",
+  "scripts": {
+    "start": "npm --prefix mobile-app run dev",
+    "dev": "npm --prefix mobile-app run dev",
+    "dev:customer": "npm --prefix mobile-app run dev",
+    "dev:admin": "npm --prefix admin-panel run dev",
+    "build:customer": "npm --prefix mobile-app run build",
+    "build:admin": "npm --prefix admin-panel run build",
+    "build": "npm run build:customer && npm run build:admin"
+  }
+}
